@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ponto-inteligente-client-curso-angular13": {
+    "ponto-inteligente": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ponto-inteligente-client:build:production"
+              "browserTarget": "ponto-inteligente:build:production"
             },
             "development": {
-              "browserTarget": "ponto-inteligente:serve:development"
+              "browserTarget": "ponto-inteligente:build:development"
             }
           },
           "defaultConfiguration": "development"
